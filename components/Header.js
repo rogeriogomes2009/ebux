@@ -19,7 +19,6 @@ const Header = () => {
       <br/>
       <br/>
       <br/>
-      <br/>
         <Container className = 'bg-white text-center'>
            <img src='young.png' className="img-fluid"/>
         </Container>

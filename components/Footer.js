@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <Container fluid className="bg-dark text-white text-center">
        <br/>
-       Desenvolvido por: Rogerio Gomes - KADOSHDEV<br/>
+       Desenvolvido por: Rogerio Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
          <ImGithub className='m-4' target='_blank' href='https://github.com/rogeriogomes2009/'/>
          <ImLinkedin className='m-4'/>
