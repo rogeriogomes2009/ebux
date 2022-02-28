@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import {
   Collapse,
   Navbar,
@@ -20,11 +21,13 @@ const Menu = () => {
 
   return (
     <div>
-      <Navbar color="warning" light expand="md" className="fs-5">
-        <Container>
+      <Navbar color="warning fixed-top" light expand="md" className="fs-5">
+          <Container>
           <NavbarBrand className="fw-bold fs-1" href="/">
-            EBUX
+          <img src='logo.png' className="img-fluid center" />
           </NavbarBrand>
+          </Container>
+          <Container>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -40,7 +43,7 @@ const Menu = () => {
                 </DropdownToggle>
                 <DropdownMenu end>
                   <DropdownItem>Tecnologia</DropdownItem>
-                  <DropdownItem>Bíblicos</DropdownItem>
+                  <DropdownItem href='/biblicos'>Bíblicos</DropdownItem>
                   <DropdownItem>Esboços/Sermões</DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>Outras</DropdownItem>
