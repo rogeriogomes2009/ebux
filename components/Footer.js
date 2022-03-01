@@ -8,11 +8,11 @@ import styles from '../components/Footer.module.css'
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="bg-dark text-white text-center">
+      <Container fluid className="d-flex bg-dark m-8 text-white justify-content-center">
        <br/>
        Desenvolvido por: Rogerio Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
-         <Link target='_blank' href='https://github.com/rogeriogomes2009/'>
+         <Link target='_blank' href="https://www.github.com/rogeriogomes2009/">
          <ImGithub className='m-4' />
          </Link>
          <ImLinkedin className='m-4'/>
