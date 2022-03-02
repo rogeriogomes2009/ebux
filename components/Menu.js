@@ -31,6 +31,9 @@ const Menu = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
+            <NavItem>
+                <NavLink href="/">Página Principal</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="/sobre">Sobre Nós</NavLink>
               </NavItem>
@@ -42,9 +45,9 @@ const Menu = () => {
                   Categorias
                 </DropdownToggle>
                 <DropdownMenu end>
-                  <DropdownItem>Tecnologia</DropdownItem>
+                  <DropdownItem href='/tecnologia'>Tecnologia</DropdownItem>
                   <DropdownItem href='/biblicos'>Bíblicos</DropdownItem>
-                  <DropdownItem>Esboços/Sermões</DropdownItem>
+                  <DropdownItem href='/esbocos'>Esboços/Sermões</DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>Outras</DropdownItem>
                 </DropdownMenu>
