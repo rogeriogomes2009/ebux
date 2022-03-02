@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Menu from '../components/Menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'reactstrap'
@@ -7,6 +8,9 @@ import Footer from '../components/Footer'
 const Tecnologia = () => {
   return (
     <div>
+      <Head>
+        <title>Livros Tecnologia - EBUX</title>
+      </Head>
       <Menu />
       <br />
       <br />
@@ -29,10 +33,7 @@ const Tecnologia = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-     
-      </Container>
+            </Container>
       <Footer />
     </div>
   )

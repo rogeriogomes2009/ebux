@@ -14,11 +14,7 @@ const Header = () => {
         <meta name='author' content='KADOSH'/>
       </Head>
       <Menu />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+     
         <Container className = 'bg-white text-center'>
            <img src='young.png' className="img-fluid"/>
         </Container>

@@ -33,9 +33,7 @@ const Esbocos = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-     
+          
       </Container>
       <Footer />
     </div>
