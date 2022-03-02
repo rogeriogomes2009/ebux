@@ -12,15 +12,24 @@ const Footer = () => {
        <br/>
        Desenvolvido por: Rogério Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
-         <Link target={'_blank'} href='https://www.github.com/rogeriogomes2009/'>
-         
+         <a target='_blank' href='https://www.github.com/rogeriogomes2009/'>
          <ImGithub className='m-4' />
-         </Link>
-         <ImLinkedin className='m-4' target='_blank' to='https://www.linkedin.com/in/rogeriogomes2009'/>
+         </a>
+         <a target='_blank' href='https://www.linkedin.com/in/rogeriogomes2009/'>
+         <ImLinkedin className='m-4'/>
+         </a>
+         <a target='_blank' href='https://www.facebook.com/kadoshdev/'>
          <ImFacebook2 className='m-4'/>
+         </a>
+         <a target='_blank' href='https://wa.me/5521972300670'>
          <ImWhatsapp className='m-4'/>
+         </a>
+         <a target='_blank' href='https://resume-rogeriogomes2009.vercel.app/'>
          <ImBriefcase className='m-4'/>
+         </a>
+         <a target='_blank' href='mailto:kadoshdev@gmail.com'>
          <ImMail className='m-4'/>
+         </a>
       </ul>
        <br/>
        <br/>
