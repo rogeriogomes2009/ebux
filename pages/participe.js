@@ -15,7 +15,7 @@ const Participe = () => {
       <br />
 
       <Container fluid className="bg-dark text-white text-center">
-        <h1 className="display-6 p-2">Indique uma categoria e/ou livro</h1>
+        <h1 className="display-6 p-4">Indique uma categoria e/ou livro</h1>
         <h3 className="lead">Coloque o link para download no campo abaixo!</h3>
         <section id="about">
           <div className="container">
@@ -26,7 +26,7 @@ const Participe = () => {
                   <div>
                     <textarea
                       className="form-control"
-                      rows="10"
+                      rows="5"
                       name="comentario"
                     ></textarea>
                     <br />
