@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Menu from '../components/Menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'reactstrap'
@@ -7,6 +8,9 @@ import Footer from '../components/Footer'
 const Esbocos = () => {
   return (
     <div>
+      <Head>
+        <title>Esboços/Pregações - EBUX</title>
+      </Head>
       <Menu />
       <br />
       <br />
