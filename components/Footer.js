@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
       <Container fluid className="bg-dark m-8 text-white text-center">
        <br/>
-       Desenvolvido por: Rogerio Gomes - KADOSHDEV &copy;<br/>
+       Desenvolvido por: Rogério Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
          <Link target={'_blank'} href='https://www.github.com/rogeriogomes2009/'>
          

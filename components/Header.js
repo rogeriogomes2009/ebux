@@ -9,7 +9,7 @@ const Header = () => {
   return (
 <div>
 <Head>     
-        <title>Seja Bem Vindo - EBUX</title>
+        <title>Seja Bem Vindo ao EBUX</title>
         <meta name='description' content='ebooks livros virtuais ebux biblioteca'/>
         <meta name='author' content='KADOSH'/>
       </Head>
