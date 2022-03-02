@@ -33,10 +33,7 @@ const Tecnologia = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-     
-      </Container>
+            </Container>
       <Footer />
     </div>
   )
