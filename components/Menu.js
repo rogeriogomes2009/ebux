@@ -48,8 +48,6 @@ const Menu = () => {
                   <DropdownItem href='/tecnologia'>Tecnologia</DropdownItem>
                   <DropdownItem href='/biblicos'>Bíblicos</DropdownItem>
                   <DropdownItem href='/esbocos'>Esboços/Sermões</DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>Outras</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
