@@ -8,7 +8,7 @@ import styles from '../components/Footer.module.css'
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="bg-dark m-8 text-white text-center">
+      <Container fluid className="bg-dark m-8 text-white text-center" expand="md">
        <br/>
        Desenvolvido por: Rogério Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
