@@ -7,28 +7,28 @@ import styles from '../components/Footer.module.css'
 
 const Footer = () => {
   return (
-    <div>
-      <Container fluid className="md:bg-dark m-8 text-white text-center" expand="md">
+    <div className={styles.expanded}>
+      <Container fluid className="bg-dark m-8 text-white text-center">
        <br/>
        Desenvolvido por: Rogério Gomes - KADOSHDEV &copy;<br/>
        <ul className={styles.social_list}>
          <a target='_blank' href='https://www.github.com/rogeriogomes2009/'>
-         <ImGithub className='m-4' />
+         <ImGithub className='m-2' />
          </a>
          <a target='_blank' href='https://www.linkedin.com/in/rogeriogomes2009/'>
-         <ImLinkedin className='m-4'/>
+         <ImLinkedin className='m-2'/>
          </a>
          <a target='_blank' href='https://www.facebook.com/kadoshdev/'>
-         <ImFacebook2 className='m-4'/>
+         <ImFacebook2 className='m-2'/>
          </a>
          <a target='_blank' href='https://wa.me/5521972300670'>
-         <ImWhatsapp className='m-4'/>
+         <ImWhatsapp className='m-2'/>
          </a>
          <a target='_blank' href='https://resume-rogeriogomes2009.vercel.app/'>
-         <ImBriefcase className='m-4'/>
+         <ImBriefcase className='m-2'/>
          </a>
          <a target='_blank' href='mailto:kadoshdev@gmail.com'>
-         <ImMail className='m-4'/>
+         <ImMail className='m-2'/>
          </a>
       </ul>
        <br/>
