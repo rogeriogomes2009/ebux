@@ -12,3 +12,6 @@ list-style: none;
   cursor: pointer;
   color: rgb(231, 188, 45);
 }
+.expanded {
+  flex: auto;
+}
