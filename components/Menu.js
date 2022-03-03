@@ -22,14 +22,13 @@ const Menu = () => {
   return (
     <div>
       <Navbar color="warning fixed-top" light expand="md" className="fs-5">
-          <Container>
+          
           <NavbarBrand className="fw-bold fs-1" href="/">
           <img src='logo.png' className="img-fluid center" />
           </NavbarBrand>
-          </Container>
-          <Container>
+          
           <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
+          <Collapse isOpen={isOpen} navbar className='justify-content-end'>
             <Nav className="mr-auto" navbar>
             <NavItem>
                 <NavLink href="/">Página Principal</NavLink>
@@ -52,7 +51,7 @@ const Menu = () => {
               </UncontrolledDropdown>
             </Nav>
           </Collapse>
-        </Container>
+       
       </Navbar>
     </div>
   )
